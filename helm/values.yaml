@@ -2,8 +2,8 @@
 
 # Namespace configuration
 namespace:
-  name: java-web-namespace
-  create: true
+  name: prafulla
+  create: false
 
 # Blue Deployment Configuration
 blue:
@@ -37,7 +37,7 @@ green:
     version: green
   image:
     repository: jatinbhalla1991/java-web-green
-    tag: v2.0
+    tag: v1.0
     pullPolicy: IfNotPresent
   port: 8080
   resources:
